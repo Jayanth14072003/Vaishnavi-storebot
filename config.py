@@ -5,7 +5,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6601011494:AAGMR0i5tlCKITms_7rr2LzZmmAieD_eQ58")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6308275181:AAFWnXOqoG87F1uL5-5UIIYEc559E_pl5Js")
 # TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5872747581:AAH7_XPCOCEVfbgUhepjJWlcOmj8wjDTjBk")
 
 #Your API ID from my.telegram.org
@@ -30,7 +30,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Jayanna:Jayanna2023@yash.tm1c2bd.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "New_Divya_Spandana")
+DB_NAME = os.environ.get("DATABASE_NAME", "Vaishnavi-store")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -53,8 +53,8 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b><code>{filename}</code> \n\n𝐉𝐨𝐢𝐧 -> <a href='https://telegram.dog/link_serials'>𝐂𝐡𝐚𝐧𝐧𝐞𝐥</a></b>")
 
 #shortner
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '0af17d003ce7020eb85d2a54fe0f6ef50e770e40')
+#SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
+#SHORTLINK_API = environ.get('SHORTLINK_API', '0af17d003ce7020eb85d2a54fe0f6ef50e770e40')
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
@@ -89,23 +89,8 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-LOG_TEXT_P =  """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫𝐊𝐒
+LOG_TEXT_P =  """#𝐍𝐞𝐰𝐔𝐬𝐞𝐫Vaishnavi
     
 <b>᚛› 𝐈𝐃 - <code>{}</code></b>
 <b>᚛› 𝐍𝐚𝐦𝐞 - {}</b>
 """
-
-FOMET = """
-♡○♡○♡●♡○♡○♡●♡○♡○♡●♡○♡○♡
-
-                  𝑈𝙥𝙻𝐨ɐ𝘥𝕖𝘥 𝙱𝘆👇
-⭑⭑⭑★✪ @Dj_Serials_Bot ✪★⭑⭑⭑
-
-                        {}
-
-𝑫๏𝒘𝗻𝙻๏d  𝗟𝖎𝙣𝐤👇
-{}
-{}
-
-𝐡𝔬𝘸  𝗧𝐨  𝑫๏𝒘𝗻𝙻๏d - @how_view
-  """
